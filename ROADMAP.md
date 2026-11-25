@@ -15,7 +15,7 @@ G4 are closed below, on the runs and on the reading of the body against the repo
 and 3.4 did not close it: one maintainer wrote both callers. Every claim here names the run or
 the file it was read from.
 
-Last updated: 2026-11-25 09:20 UTC
+Last updated: 2026-11-25 08:45 UTC
 rather than three, because a contributor who picked up two of them learned no format at all. The
 organization's `ISSUE_CONTRACT.md` in `posture-sec/.github` defines PI-1: a marker line naming the
 repository, the roadmap row, the kind and the wave tier, then nine numbered sections in the order a
@@ -862,6 +862,7 @@ it is why this repository's value right now is the plumbing rather than the find
 
 | Date (UTC) | Change | Tasks |
 | --- | --- | --- |
+| 2026-11-25 | Merged dependabot PR #177: routine dependency bump, merged after the roadmap gate asked for this row. No task changes and no behaviour change; the pinned tool and action versions move together. | none ticked |
 | 2026-11-25 | Merged `test/9.5-escape-matrix` (#28): `TestEscapeMatrix` pins nineteen hostile strings, one per construct the renderer emits into, and `LINE_BREAK` now strips a line break's surrounding indentation so a value cannot open a markdown line of its own. The matrix found the two holes the roadmap row records. | 9.5 |
 | 2026-11-25 | Merged `chore/9.6-pinned-dev-deps` (#29): `scripts/lock_dev_requirements.py` resolves the dev-tool closure through pip's own report, `requirements-dev.lock.txt` pins it by version and content hash, and `--check` refuses a bumped pin without a regenerated lock. Main had already closed 9.6 in `requirements-dev.txt` with inline hashes, so the roadmap keeps that wording and this row records the second, tested mechanism. | none ticked |
 | 2026-11-25 | Merged dependabot PR #174: routine dependency bump, merged after the roadmap gate asked for this row. No task changes and no behaviour change; the pinned tool and action versions move together. | none ticked |
